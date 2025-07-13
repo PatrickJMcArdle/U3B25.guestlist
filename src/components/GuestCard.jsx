@@ -7,19 +7,19 @@ export default function GuestCard({ guest }) {
             className="card"
         >
             <p>
-                {guest.name}
+                Name: {guest.name}
             </p>
             <p>
-                {guest.email}
+                Email: {guest.email}
             </p>
             <p>
-                {guest.phone}
+                Phone #: {guest.phone}
             </p>
             <p>
-                {guest.bio}
+                Bio: {guest.bio}
             </p>
             <p>
-                {guest.job}
+                Job: {guest.job}
             </p>
             <button
                 onClick={() => {
